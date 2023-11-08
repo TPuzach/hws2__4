@@ -1,0 +1,38 @@
+.input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.inputWrapper {
+    margin-bottom: 20px;
+}
+
+.superInput {
+    font-weight: bold;
+    color: #333;
+}
+
+.errorInput {
+    border-color: #e74c3c;
+}
+
+.errorInput:focus {
+    outline: none;
+    border-color: #e74c3c;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
+}
+
+.error {
+    color: #e74c3c;
+}
